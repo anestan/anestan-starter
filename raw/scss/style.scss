@@ -1,0 +1,34 @@
+/**!
+Theme Name: Anestan
+Theme URI: http://anestan.web.id
+Description: Premium WordPress Theme
+Version: 1.0
+Author: anestan
+Author URI: http://anestan.web.id
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: anestan
+Tags: one-column, two-columns
+*/
+
+
+// Mixins & Variables
+@import "partials/mixins";
+@import "partials/variables";
+
+/* ----------------------------------------------------------------------------
+ * Normalize & Santize
+ * ------------------------------------------------------------------------- */
+@import "vendors/normalize";
+@import "vendors/sanitize";
+
+/* ----------------------------------------------------------------------------
+ * Structure
+ * ------------------------------------------------------------------------- */
+@import "partials/structure";
+
+/* WPCore */
+@import "partials/wpcore";
+
+/* Base */
+@import "partials/base";
